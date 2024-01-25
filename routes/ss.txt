@@ -1,0 +1,15 @@
+
+        <div className="content" id="l-content">
+          <img src="/img/coli.png" class="img-size" id="coli" />
+          <h1 id="motd">
+            Welcome to <br /> Green Goodies
+          </h1>
+        </div>
+        <div id="r-content" className="content">
+          <img src="/img/potato.png" class="img-size" id="potato" />
+          <img src="/img/brococoi.png" class="img-size" id="brococoi" />
+          <img src="/img/tomato.png" class="img-size" id="tomato" /> 
+        </div>
+        <div className="txt">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, reiciendis facere sit in molestiae adipisci eveniet velit nesciunt, quas sed vero quis saepe nemo corrupti atque quod voluptatem a repellendus odit! Dignissimos culpa, unde, nobis blanditiis, id voluptatum deleniti dicta distinctio molestias et at accusamus alias rem expedita adipisci ea. Sequi sit, architecto rem officia quidem vero aspernatur commodi deleniti! Voluptas necessitatibus vel ad molestiae consectetur quis sunt nisi fuga pariatur asperiores deleniti porro, culpa nobis officia maiores reiciendis ratione excepturi dignissimos adipisci autem voluptates a velit! Aspernatur atque laudantium magnam nemo laboriosam sequi dolorum quis ullam praesentium voluptate? Tenetur nesciunt inventore illo laboriosam labore. Saepe odit praesentium tempore vitae! Repudiandae, perspiciatis quam saepe a minima ratione, hic nulla quisquam sapiente reprehenderit enim animi ut voluptatum quibusdam voluptatibus in, fugiat cupiditate vero! Voluptas eum repellat sed dolor inventore nemo magnam! Quis, possimus culpa. Magni ratione accusamus, aspernatur libero eveniet animi natus. Harum nihil, dolores quisquam excepturi sunt quam architecto ducimus pariatur dicta quaerat eum cupiditate ex totam libero. Error temporibus, placeat magni odio reiciendis illo dignissimos possimus adipisci dolor quas unde, doloribus blanditiis id sit optio, rem incidunt recusandae vitae libero non ea nostrum dolore praesentium eaque. Eos laboriosam impedit nisi harum doloribus, quisquam totam nostrum odio fuga inventore deserunt accusamus modi? Dolorem blanditiis assumenda provident tempore nulla amet eum facilis accusantium, labore repellat qui numquam eligendi hic possimus. Perspiciatis nihil, esse magni adipisci vel unde impedit, autem, deserunt cum recusandae eum alias. Vel quis, commodi nemo neque autem voluptatum ullam voluptas pariatur numquam culpa quod veritatis molestiae maiores doloribus ad officiis est ex dicta inventore quos. Harum ullam, cum eos vitae nihil excepturi necessitatibus consectetur quos maxime hic natus aut ratione quod vel molestiae velit. Sapiente vero reprehenderit, quis a consequuntur laboriosam optio vitae voluptatibus. Dolore quia consequatur quam?
+        </div>

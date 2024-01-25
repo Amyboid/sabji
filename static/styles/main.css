@@ -1,0 +1,140 @@
+@import url(/styles/login.css);
+@import url(/styles/display.css);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-cl);
+    --size: 4rem;
+}
+
+.wrapper-1 {
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    perspective: 10px; 
+}
+
+#motd {
+    color: var(--pr-cl);
+    font-size: 5rem;
+    font-family: 'Lobster-Regular';
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 300px;
+    background-color: transparent; 
+
+}
+
+.img-size {
+    background-color: transparent;
+    width: 400px;
+    height: 350px;
+}
+
+#r-content {
+    flex: 2;
+    padding: 200px 10px 0 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    background-color: transparent;
+    margin-top: 400px;
+}
+
+#coli {
+    position: absolute;
+    left: 221px;
+    transform: translateZ(-10px) scale(2);
+}
+
+#brococoi {
+    position: absolute;
+    rotate: 30deg;
+    right: -258px;
+    transform: translateZ(-5px) scale(1.5);
+
+}
+
+#tomato {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    right: -221px;
+    bottom: 100px;
+    transform: translateZ(-20px) scale(2.5);
+
+}
+
+
+.btn {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    border: 5px solid;
+    border-color: var(--bg-cl);
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+#block-1 {
+    width: 200px;
+    background-color: var(--pr-cl);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    
+}
+#btn-1{
+    padding: 0;
+    width: 100%;
+    overflow: none;
+    border: none; 
+    background-color: transparent;
+}
+#btn-1 > h1{
+    color: white;  
+    font-size: 2.5rem;
+    margin-left: 10px;
+    font-family: 'Lobster-Regular';
+    background-color: transparent;
+    transition: all 600ms;
+
+}
+#btn-1:hover > h1{
+    color: #fd733c;
+}
+#block-2 > h1{
+    color: var(--pr-cl);
+    background-color: transparent;
+    font-size: 2.5rem;
+    margin-left: 4px;
+    font-family: 'Lobster-Regular';
+}
+
+#block-2 {  
+    background-color: var(--an-cl);
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.wrapper-2 {
+    height: 100vh;
+    overflow-y: auto;  
+    transform: translateZ(-100px);
+}
+
+.footer{
+    height: auto;
+    text-align: center; 
+    font-size: 4rem;
+    min-height: auto;
+}

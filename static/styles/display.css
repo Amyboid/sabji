@@ -1,0 +1,10 @@
+:root{
+    --bg-cl: #b6ffce;
+    --pr-cl: #0b5226;
+    --an-cl: #fbffdb;
+    
+}
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('/fonts/lobster-regular-webfont.woff2') format('woff2');
+}
