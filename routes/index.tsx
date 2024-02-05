@@ -21,8 +21,7 @@ export default function Home() {
         </div>
       </div>
       <div className="wrapper-2">
-      <div className="footer">
-        //hello world
+      <div className="footer"> 
         hie
       </div>
       </div>
