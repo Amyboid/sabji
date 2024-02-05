@@ -7,7 +7,6 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>GreenGoodies</title>
         <link rel="stylesheet" href="/styles/main.css"/> 
-        {/* <link rel="stylesheet" href="/styles/login.css"/>  */}
         <script src="https://kit.fontawesome.com/b7653d5286.js" crossorigin="anonymous"></script>
   
       </head>
