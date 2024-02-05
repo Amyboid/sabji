@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </div>
       <div className="wrapper-2">
-      <div className="footer">
+      <div className="footer"> 
         hie
       </div>
       </div>
