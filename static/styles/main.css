@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--bg-cl);
+    /* background-color: var(--bg-cl); */
     --size: 4rem;
 }
 
@@ -138,5 +138,50 @@
     font-size: 4rem;
     min-height: auto;
 }
+
+.login-signup-div{
+    height: 100vh;
+    background-color: lightgrey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    padding-top: 10px;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+
+
+    text-align: center;
+}
+.pic-div{
+    height: 350px;
+    width: 300px;
+    background-color: orange;
+
+}
+
+.log-sign-butt{
+    height: 30px;
+    width: 200px;
+
+    cursor: pointer;
+    border: 2px solid var(--pr-cl);
+    border-radius: 2px;
+
+    transition: background-color 0.5s ease;
+    background-color:var(--an-cl);
+    color:var(--pr-cl);
+}
+
+.log-sign-butt:hover{
+    background-color: var(--pr-cl);
+    color: var(--an-cl);
+}
+
+
+
 
 /* git clone -c core.sshCommand */
