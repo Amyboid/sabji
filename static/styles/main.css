@@ -141,47 +141,89 @@
 
 .login-signup-div{
     height: 100vh;
-    background-color: lightgrey;
-
+    background-color: var(--an-cl);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .form{
     padding-top: 10px;
-    height: 350px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
     background-color: white;
-
-
+    border: 2px solid var(--pr-cl);
     text-align: center;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
 }
-.pic-div{
-    height: 350px;
-    width: 300px;
-    background-color: orange;
-
+.side-div{
+    height: 450px;
+    width: 350px;
+    padding: 60px;
+    background-color: var(--pr-cl);
+    color: var(--an-cl);
+    font-size: larger;
+    line-height: 50px;
+    z-index: 3;
+    border-top-right-radius: 20px;   
 }
-
+.tom{
+    height:200px;
+    width: 200px;
+    position: absolute;
+    right: 938.5px;
+    top: 426px;   
+    transition:  0.5s ease-out;
+    z-index: 3;
+}
+.brocoli{
+    height: 250px;
+    width: 250px;
+    position:absolute;
+    top: 10px;
+    right: 580px;
+    z-index: 2;
+    opacity: 0.9;
+}
+.vegleaf{
+    height: 250px;
+    width: 150px;
+    position:absolute;
+    top: 380px;
+    right: 730px;
+    z-index: 2;
+    rotate: -40deg;
+}
+.leaf{
+    height: 150px;
+    width: 100px;
+    position:absolute;
+    top: 210px;
+    right: 760px;
+    z-index: 2;
+}
+input{
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-bottom: 2px solid var(--pr-cl);
+    outline: none;
+}
 .log-sign-butt{
     height: 30px;
     width: 200px;
-
     cursor: pointer;
+    margin-top: 20px;
     border: 2px solid var(--pr-cl);
-    border-radius: 2px;
-
+    border-radius: 1px;
     transition: background-color 0.5s ease;
     background-color:var(--an-cl);
     color:var(--pr-cl);
+    font-size: medium;
 }
-
 .log-sign-butt:hover{
     background-color: var(--pr-cl);
     color: var(--an-cl);
 }
-
-
-
-
 /* git clone -c core.sshCommand */

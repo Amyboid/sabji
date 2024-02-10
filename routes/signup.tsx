@@ -7,20 +7,25 @@ export default function Signup(){
 
         <form class="form">
         <h1>Create Account </h1><br />
-            <p>Name </p>
-            <input type="text" />   <br />
+            <input type="text" placeholder="Name..."/>   <br /><br />
 
-            <p>Email ID </p>
-            <input type="text" />   <br />
-            <p>Password </p>
-            <input type="text" /> <br />
-           <br />
-           <button class="log-sign-butt">Sign Up</button> <br /> <br />
+            <input type="text" placeholder="Email ID..." />   <br /><br />
+            <input type="text" placeholder="Password..." /> <br />
+           
+           <button class="log-sign-butt">Sign Up</button> <br /> 
            <p>already have an account ?</p>
            <a href="login">log in</a>
 
         </form>
-        <div class="pic-div">hello</div>
+        <div class="side-div">
+            <h1>Fresh picks for healthier living, straight from nature's bounty.</h1>
+        </div>
+
+        <img class="tom" src="/img/tomato3.png" alt="" /> 
+
+        <img class="brocoli" src="img/brococoi.png" alt="" />    
+        <img class="vegleaf" src="img/vegleaf.png" alt="" />
+        <img class="leaf" src="img\leaf.png" alt="" />
         </div>
         </>
     );
